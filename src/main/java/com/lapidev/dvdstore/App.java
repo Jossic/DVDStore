@@ -12,6 +12,10 @@ public class App
 {
     public static void main( String[] args )
     {
+            ApplicationCont
+//        ApplicationContext context=new ClassPathXmlApplicationContext("applicationContext.xml");
+
+
         MovieController movieController = new MovieController();
         FileMovieRepository movieRepository = new FileMovieRepository();
         DefaultMovieService movieService = new DefaultMovieService();
