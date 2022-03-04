@@ -5,7 +5,7 @@ import com.lapidev.dvdstore.entity.Movie;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class GoLiveMovieRepository implements IMovieRepository {
+public class FileMovieRepository implements IMovieRepository {
 
     public void add(Movie movie) {
         FileWriter writer;

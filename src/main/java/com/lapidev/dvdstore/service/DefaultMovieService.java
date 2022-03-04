@@ -3,7 +3,7 @@ package com.lapidev.dvdstore.service;
 import com.lapidev.dvdstore.entity.Movie;
 import com.lapidev.dvdstore.repository.IMovieRepository;
 
-public class MovieService implements IMovieService {
+public class DefaultMovieService implements IMovieService {
 
     private IMovieRepository movieRepository ;
 
