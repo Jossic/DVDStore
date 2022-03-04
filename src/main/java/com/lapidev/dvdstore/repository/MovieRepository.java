@@ -5,7 +5,7 @@ import com.lapidev.dvdstore.entity.Movie;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MovieRepository {
+public class MovieRepository implements IMovieRepository {
 
     private static List<Movie> movies = new ArrayList<>();
 
